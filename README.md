@@ -1,18 +1,19 @@
-# Urban Evasion
+# Urban Evasion: Safe House Dash
 
-## React + Vite
+Urban Evasion is a high-quality, top-down driving game built with HTML5, CSS, and JavaScript. Navigate a sprawling city grid to reach your safehouse while evading intelligent police AI that predicts your path!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- **Realistic Car Physics:** Experience smooth and dynamic top-down driving mechanics.
+- **Sprawling City Grid:** Navigate through a detailed city environment with building depth.
+- **GTA-style Minimap & GPS:** Utilize an A* pathfinding GPS route to find your way to the safehouse.
+- **Intelligent Police AI:** Evade police units that predict your movement and attempt to intercept you.
+- **Multiple Vehicles:** Swap between different vehicles (bikes, cars, trucks) to adapt your evasion strategy.
+- **Pause System & End Game State:** Full gameplay loop with robust pause, reset, and end-game functionalities.
 
-Currently, two official plugins are available:
+## Getting Started
+To play the game, simply open `urban-evasion.html` in your web browser. This single-file implementation contains everything you need to start escaping the law!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+- HTML5 Canvas
+- Vanilla JavaScript
+- CSS3
